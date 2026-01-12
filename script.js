@@ -1,7 +1,20 @@
-gsap.to(".logo path", {
+gsap.fromTo(".logo path",
+    {
+    opacity: 0
+}, {
+    y: 16,
+    duration: 2.5,
+    ease: "power3.out",
+    opacity: 1
+})
+
+gsap.fromTo(".menu li",
+    {
+    opacity: 0
+}, {
     y: 16,
     duration: 2,
-    repeat: -1,
-    yoyo: true,
-    ease: "sine.inOut"
+    ease: "power4.out",
+    opacity: 1,
+    stagger: 0.5
 })
