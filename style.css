@@ -194,7 +194,7 @@ svg {
 .carousel .list .item:nth-child(1) .topic, 
 .carousel .list .item:nth-child(1) .des {
     transform: translateY(50px);
-    filter: blur(20px);
+    filter: blur(25px);
     opacity: 0;
     animation: showContent 2s 1s linear 1 forwards;
 }

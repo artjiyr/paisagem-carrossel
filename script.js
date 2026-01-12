@@ -19,6 +19,28 @@ gsap.fromTo(".menu li",
     stagger: 0.5
 })
 
+gsap.fromTo(".title",
+    {
+    opacity: 0
+}, {
+    y: 16,
+    duration: 2,
+    ease: "power4.out",
+    opacity: 1,
+    stagger: 0.5
+})
+
+gsap.fromTo(".topic",
+    {
+    opacity: 0
+}, {
+    y: 16,
+    duration: 2,
+    ease: "power4.out",
+    opacity: 1,
+    stagger: 0.7
+})
+
 const carousel = document.querySelector('.carousel');
 const list = carousel.querySelector('.list');
 const thumbs = carousel.querySelector('.thumbnail');
